@@ -8,7 +8,14 @@ export interface Project {
     name: string;
     image: string;
     description: string;
-    featured?: boolean; // Add featured property
+    featured?: boolean;
+    date: string;
+    client: string;
+    technologies: string[];
+    duration: string;
+    role: string;
+    challenge: string;
+    solution: string;
   };
   content?: string;
 }
