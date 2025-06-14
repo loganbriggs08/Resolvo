@@ -1,4 +1,5 @@
 import {HeaderProps} from "@/props/components/header";
+import Link from "next/link";
 
 export default function Header(props: HeaderProps) {
     if (!props.shown) {
@@ -7,47 +8,51 @@ export default function Header(props: HeaderProps) {
 
     return (
         <header>
-            <div className={"grid grid-cols-2 pt-5 pb-5 xl:pt-8 xl:pb-8 xl:grid-cols-3 xl:w-[80%] xl:ml-auto xl:mr-auto"}>
+            <div className={"w-full h-px bg-[var(--secondary-background)]"} />
+
+            <div className={"grid grid-cols-2 pt-5 pb-5 xl:py-8 xl:grid-cols-3 xl:w-[80%] xl:ml-auto xl:mr-auto"}>
                 <div className={"mr-auto"}>
-                    <p>Resolvo</p>
+                    <Link href={"/"} className={"font-bold text-2xl text-[var(--foreground)]"}>
+                        Resolvo
+                    </Link>
                 </div>
 
                 <div className={"hidden xl:block xl:ml-auto xl:mr-auto"}>
-                    <div className={"grid grid-cols-5 gap-5"}>
-                        <a
+                    <div className={"flex gap-8"}>
+                        <Link
                             href={"/"}
-                            className={"font-medium"}
+                            className={"font-medium hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Home
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href={"/"}
-                            className={"font-medium whitespace-nowrap"}
+                            className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Our Work
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href={"/"}
-                            className={"font-medium whitespace-nowrap"}
+                            className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             About Us
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href={"/"}
-                            className={"font-medium whitespace-nowrap"}
+                            className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Get a Quote
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href={"/"}
-                            className={"font-medium whitespace-nowrap"}
+                            className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Contact Us
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -61,7 +66,6 @@ export default function Header(props: HeaderProps) {
                 </div>
             </div>
 
-            <div className={"w-full h-0.5 bg-[var(--green-border)]"} />
         </header>
     );
 }

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/loganbriggs/Desktop/Projects/Resolvo/src/components/ClientButtons.tsx"],"sourcesContent":["\"use client\";\n\nimport { useRouter } from \"next/navigation\";\n\nexport default function ClientButtons() {\n  const router = useRouter();\n\n  return (\n    <div className={\"flex flex-row mt-7 justify-center\"}>\n      <button\n        onClick={() => { router.push(\"/work\"); }}\n        className={\"primary-button\"}\n      >\n        Previous Work\n      </button>\n\n      <div className={\"ml-2 mr-2\"} />\n\n      <button\n        onClick={() => { router.push(\"/work\"); }}\n        className={\"secondary-button\"}\n      >\n        Get in Touch\n      </button>\n    </div>\n  );\n} "],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIe,SAAS;;IACtB,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IAEvB,qBACE,6LAAC;QAAI,WAAW;;0BACd,6LAAC;gBACC,SAAS;oBAAQ,OAAO,IAAI,CAAC;gBAAU;gBACvC,WAAW;0BACZ;;;;;;0BAID,6LAAC;gBAAI,WAAW;;;;;;0BAEhB,6LAAC;gBACC,SAAS;oBAAQ,OAAO,IAAI,CAAC;gBAAU;gBACvC,WAAW;0BACZ;;;;;;;;;;;;AAKP;GAtBwB;;QACP,qIAAA,CAAA,YAAS;;;KADF","debugId":null}}]
+}

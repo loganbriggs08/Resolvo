@@ -3,16 +3,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #E3F9EF;
+  --background: #FFFFFF; /* Pure white background */
+  --secondary-background: #1B1B1B; /* black background */
   --foreground: #1E2621;
 
-  --primary-green: #42CDA0;
-  --secondary-green: #E3F9EF;
-  --secondary-text-green: #35413B;
-  --green-border: #DBF0E9;
+  --primary-red: #D02A4D;
+  --secondary-red: #FDE6EB;
+  --secondary-text-red: #4C1F27;
+  --red-border: #F8C6D2;
 
   --primary-white: #F3F3F3;
   --off-white: #F2F2F2;
+
+  --divider-color: #CECECE;
 }
 
 body {
@@ -21,50 +24,108 @@ body {
   background: var(--background);
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 var(--secondary-red);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--secondary-red);
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 0px;
+  border: 2px solid var(--secondary-red);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #1E2621;
+}
+
 .primary-button {
-  font-weight: 400;
-  border: 2px solid var(--foreground);
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
+  border: 2px solid var(--primary-red);
+  background-color: var(--primary-red);
   color: var(--primary-white);
-  background-color: var(--foreground);
+  box-shadow: 0 4px 0 var(--secondary-text-red);
+  transition: all 0.15s ease-in-out;
+  position: relative;
 }
 
 .primary-button:hover {
   cursor: pointer;
-  color: var(--foreground);
-  background-color: transparent;
+  color: var(--primary-white);
+  background-color: var(--primary-red);
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--secondary-text-red);
+}
+
+.primary-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 var(--secondary-text-red);
 }
 
 .secondary-button {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid var(--foreground);
+  background-color: transparent;
+  color: var(--foreground);
+  box-shadow: 0 4px 0 #111;
+  transition: all 0.15s ease-in-out;
+  position: relative;
 }
 
 .secondary-button:hover {
   cursor: pointer;
   color: var(--primary-white);
   background-color: var(--foreground);
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #111;
+}
+
+.secondary-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #111;
 }
 
 .navbar-button {
   font-size: 15px;
-  padding: 7px 10px 7px 10px;
+  padding: 7px 10px;
   border-radius: 5px;
   border: 2px solid var(--foreground);
+  background-color: var(--off-white);
+  color: var(--foreground);
+  box-shadow: 0 4px 0 #111;
+  transition: all 0.15s ease-in-out;
+  position: relative;
 }
 
 .navbar-button:hover {
   cursor: pointer;
   color: var(--primary-white);
   background-color: var(--foreground);
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #111;
 }
 
-.primary-green {
-  color: var(--primary-green);
+.navbar-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #111;
 }
 
-.secondary-text-green {
-  color: var(--secondary-text-green);
+.primary-red {
+  color: var(--primary-red);
+}
+
+.secondary-text-red {
+  color: var(--secondary-text-red);
 }
