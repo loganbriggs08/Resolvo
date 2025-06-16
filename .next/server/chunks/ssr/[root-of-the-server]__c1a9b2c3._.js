@@ -62,7 +62,7 @@ function getProjects() {
             content
         };
     });
-    return projects;
+    return projects.sort((a, b)=>new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 }
 function getFeaturedProjects() {
     const allProjects = getProjects();
@@ -102,12 +102,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mdx$2e$ts__$5b
 function WorkPage() {
     const projects = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mdx$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getProjects"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "min-h-screen p-24",
+        className: "min-h-screen px-4 py-16 md:px-12 xl:px-32 bg-[var(--background)]",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-4xl font-bold text-center mb-10",
-                children: "Our Previous Work"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "text-center mb-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-2xl font-medium text-[var(--foreground)] mb-2",
+                        children: "Our Previous Work"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/work/page.tsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-gray-500 max-w-xl mx-auto",
+                        children: "Explore a selection of our recent projects and see how we've helped clients achieve their goals with robust, lasting software."
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/work/page.tsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/app/work/page.tsx",
                 lineNumber: 10,
                 columnNumber: 7
@@ -115,7 +132,7 @@ function WorkPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
                 children: projects.map((project)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-white rounded-lg shadow-md overflow-hidden",
+                        className: "bg-white rounded-lg overflow-hidden border border-[var(--divider-color)] shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200 flex flex-col",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 src: project.frontmatter.image,
@@ -123,55 +140,72 @@ function WorkPage() {
                                 width: 500,
                                 height: 300,
                                 layout: "responsive",
-                                className: "object-cover"
+                                className: "object-cover h-48 rounded-t-lg"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/work/page.tsx",
-                                lineNumber: 14,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-6",
+                                className: "p-6 flex flex-col flex-1",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-xl font-semibold mb-2",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-medium text-2xl text-[var(--foreground)] mb-2",
                                         children: project.frontmatter.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/work/page.tsx",
-                                        lineNumber: 23,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-700 mb-4",
+                                        className: "text-gray-500 mb-4 flex-1",
                                         children: project.frontmatter.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/work/page.tsx",
-                                        lineNumber: 24,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: `/work/${project.slug}`,
-                                        className: "text-blue-500 hover:underline",
-                                        children: "View Details"
-                                    }, void 0, false, {
+                                        className: "text-[var(--primary-red)] flex items-center font-medium hover:underline",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "bg-gradient-to-t from-[var(--primary-red)] to-[var(--primary-red)] bg-no-repeat bg-bottom bg-[length:100%_1.5px]",
+                                                children: "View Detail"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/work/page.tsx",
+                                                lineNumber: 32,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "ml-1",
+                                                children: ">"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/work/page.tsx",
+                                                lineNumber: 33,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/app/work/page.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 31,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/work/page.tsx",
-                                lineNumber: 22,
+                                lineNumber: 28,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, project.slug, true, {
                         fileName: "[project]/src/app/work/page.tsx",
-                        lineNumber: 13,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/work/page.tsx",
-                lineNumber: 11,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]

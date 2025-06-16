@@ -35,7 +35,7 @@ export default function Header(props: HeaderProps) {
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className={"hidden xl:block xl:ml-auto xl:mr-auto"}
                 >
-                    <div className={"flex gap-8"}>
+                    <div className={"flex gap-8 items-center"}>
                         <Link
                             href={"/"}
                             className={"font-medium hover:text-[var(--primary-red)] transition-colors duration-200"}
@@ -44,32 +44,32 @@ export default function Header(props: HeaderProps) {
                         </Link>
 
                         <Link
-                            href={"/"}
+                            href={"/work"}
                             className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Our Work
                         </Link>
 
                         <Link
-                            href={"/"}
+                            href={"/about"}
                             className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             About Us
                         </Link>
 
                         <Link
-                            href={"/"}
+                            href={"/quote"}
                             className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Get a Quote
                         </Link>
 
-                        <Link
-                            href={"/"}
+                        <a
+                            href={"mailto:logan@resolvo.dev"}
                             className={"font-medium whitespace-nowrap hover:text-[var(--primary-red)] transition-colors duration-200"}
                         >
                             Contact Us
-                        </Link>
+                        </a>
                     </div>
                 </motion.div>
 
@@ -80,7 +80,7 @@ export default function Header(props: HeaderProps) {
                     className={"ml-auto flex gap-3 items-center"}
                 >
                     <Link
-                        href="/#get-a-quote"
+                        href="/quote"
                         className="navbar-primary-button"
                     >
                         Get a Quote

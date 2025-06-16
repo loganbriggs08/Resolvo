@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Project } from "../lib/mdx";
 import ClientButtons from "./ClientButtons";
 import { motion } from "framer-motion";
-import QuoteGenerator from "./QuoteGenerator";
+import ContactForm from "./ContactForm";
 import { FaSearch, FaPencilRuler, FaRocket, FaGlobe, FaShoppingCart, FaMobileAlt, FaLaptopCode, FaClock } from "react-icons/fa";
 import { useState } from "react";
 
@@ -58,9 +58,9 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                 className={"text-center pt-20"}
             >
                 <h1 className={"font-medium text-6xl"}>
-                    We <span className={"primary-red"}>Resolve Problems</span> Instead
+                    We <span className={"primary-red"}>Build Software</span> That
                     <br/>
-                    Of Re-Solving Them
+                    Lasts From Day One
                 </h1>
 
                 <p className={"mt-5 text-lg secondary-text-red"}>
@@ -101,8 +101,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut" }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -116,8 +116,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6, delay: 0.1 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -131,8 +131,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6, delay: 0.2 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -146,8 +146,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6, delay: 0.3 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -161,8 +161,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6, delay: 0.4 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -176,8 +176,8 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.6, delay: 0.5 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
                       className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
                     >
                       <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
@@ -188,53 +188,6 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                     </motion.div>
                   </div>
                 </section>
-
-                {/* Testimonials Section */}
-                <section className="w-[80%] mx-auto py-20 flex flex-col lg:flex-row items-center gap-16">
-                  {/* Left: Heading and description */}
-                  <div className="flex-1 text-left">
-                    <h2 className="font-medium text-4xl text-[var(--foreground)] mb-4">
-                      What our <span className="primary-red underline">customers say</span>
-                    </h2>
-                    <p className="text-gray-600 max-w-md">
-                      There's nothing better than a happy customer. Here are some of the lovely things ours have to say about us.
-                    </p>
-                  </div>
-                  {/* Right: Testimonial Card */}
-                  <div className="flex-1 flex flex-col items-center">
-                    <div className="relative w-full max-w-xl bg-white rounded-xl border border-[var(--divider-color)] shadow p-8 pt-12 pb-10 flex flex-col items-center" style={{minHeight: 260}}>
-                      <div className="absolute top-6 left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-white" />
-                      <div className="text-[var(--foreground)] text-lg text-center mb-8 px-2 leading-relaxed">
-                        “{testimonials[currentTestimonial].text}”
-                      </div>
-                      <div className="flex flex-col items-center mt-auto">
-                        <div className="w-16 h-16 rounded-full bg-[var(--divider-color)] flex items-center justify-center overflow-hidden mb-2 border-2 border-[var(--primary-red)]">
-                          <img src={testimonials[currentTestimonial].avatar} alt="Customer avatar" className="w-full h-full object-cover" />
-                        </div>
-                        <div className="font-semibold text-[var(--primary-red)] text-base">{testimonials[currentTestimonial].name}</div>
-                        <div className="text-gray-400 text-sm">{testimonials[currentTestimonial].company}</div>
-                      </div>
-                      {/* Accent underline */}
-                      <div className="absolute left-0 right-0 bottom-0 h-2 rounded-b-xl bg-[var(--primary-red)] opacity-80" style={{zIndex: 1}} />
-                    </div>
-                    {/* Carousel controls */}
-                    <div className="flex items-center justify-center gap-2 mt-6">
-                      <button onClick={prevTestimonial} className="w-8 h-8 flex items-center justify-center text-[var(--primary-red)] bg-white border border-[var(--divider-color)] rounded-full shadow hover:bg-[var(--primary-red)] hover:text-white transition">
-                        <span className="sr-only">Previous</span>
-                        <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
-                      </button>
-                      <div className="flex gap-1 mx-2">
-                        {testimonials.map((_, i) => (
-                          <span key={i} className={`w-2 h-2 rounded-full bg-[var(--primary-red)] inline-block ${i === currentTestimonial ? 'opacity-80' : 'opacity-30'}`} />
-                        ))}
-                      </div>
-                      <button onClick={nextTestimonial} className="w-8 h-8 flex items-center justify-center text-[var(--primary-red)] bg-white border border-[var(--divider-color)] rounded-full shadow hover:bg-[var(--primary-red)] hover:text-white transition">
-                        <span className="sr-only">Next</span>
-                        <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
-                      </button>
-                    </div>
-                  </div>
-                </section>
             </motion.div>
 
             {/* Featured Work Section */}
@@ -243,7 +196,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className={"w-full bg-[var(--secondary-background)] pt-20 pb-20 relative overflow-hidden transform -skew-y-3"}
+                className={"w-full bg-[var(--secondary-background)] relative overflow-hidden transform -skew-y-3"}
+                style={{ 
+                    paddingTop: '120px', 
+                    paddingBottom: '120px', 
+                    marginTop: '-60px', 
+                    marginBottom: '-60px' 
+                }}
             >
                 <div className={"w-[70%] ml-auto mr-auto text-left relative z-10 transform skew-y-3"}>
                     <motion.div 
@@ -290,14 +249,112 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                 </div>
             </motion.div>
 
-            {/* Quote Generation Section */}
-            <section className="w-full bg-[var(--off-white)] py-20">
-                <div className="w-[70%] mx-auto text-center mb-12">
-                    <h2 className="text-3xl font-medium text-[var(--foreground)] mb-3">Get a Rough Project Quote</h2>
-                    <p className="text-gray-600 max-w-2xl mx-auto">Select what you need and get an instant, no-obligation estimate for your next project.</p>
+            {/* Testimonials Section */}
+            <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className={"w-full bg-[var(--off-white)] py-20"}
+            >
+                <div className="w-[80%] mx-auto flex flex-col lg:flex-row items-center gap-16">
+                    {/* Left: Heading and description */}
+                    <div className="flex-1 text-left">
+                        <h2 className="font-medium text-4xl text-[var(--foreground)] mb-4">
+                            What our <span className="primary-red underline">customers say</span>
+                        </h2>
+                        <p className="text-gray-600 max-w-md">
+                            There's nothing better than a happy customer. Here are some of the lovely things ours have to say about us.
+                        </p>
+                    </div>
+                    {/* Right: Testimonial Card */}
+                    <div className="flex-1 flex flex-col items-center">
+                        <div className="relative w-full max-w-xl bg-white rounded-xl border border-[var(--divider-color)] shadow p-8 pt-12 pb-10 flex flex-col items-center" style={{minHeight: 260}}>
+                            <div className="absolute top-6 left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-white" />
+                            <div className="text-[var(--foreground)] text-lg text-center mb-8 px-2 leading-relaxed">
+                                "{testimonials[currentTestimonial].text}"
+                            </div>
+                            <div className="flex flex-col items-center mt-auto">
+                                <div className="w-16 h-16 rounded-full bg-[var(--divider-color)] flex items-center justify-center overflow-hidden mb-2 border-2 border-[var(--primary-red)]">
+                                    <img src={testimonials[currentTestimonial].avatar} alt="Customer avatar" className="w-full h-full object-cover" />
+                                </div>
+                                <div className="font-semibold text-[var(--primary-red)] text-base">{testimonials[currentTestimonial].name}</div>
+                                <div className="text-gray-500 text-sm">{testimonials[currentTestimonial].company}</div>
+                            </div>
+                            {/* Accent underline */}
+                            <div className="absolute left-0 right-0 bottom-0 h-2 rounded-b-xl bg-[var(--primary-red)] opacity-80" style={{zIndex: 1}} />
+                        </div>
+                        {/* Carousel controls */}
+                        <div className="flex items-center justify-center gap-2 mt-6">
+                            <button onClick={prevTestimonial} className="w-8 h-8 flex items-center justify-center text-[var(--primary-red)] bg-white border border-[var(--divider-color)] rounded-full shadow hover:bg-[var(--primary-red)] hover:text-white transition">
+                                <span className="sr-only">Previous</span>
+                                <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+                            </button>
+                            <div className="flex gap-1 mx-2">
+                                {testimonials.map((_, i) => (
+                                    <span key={i} className={`w-2 h-2 rounded-full bg-[var(--primary-red)] inline-block ${i === currentTestimonial ? 'opacity-80' : 'opacity-30'}`} />
+                                ))}
+                            </div>
+                            <button onClick={nextTestimonial} className="w-8 h-8 flex items-center justify-center text-[var(--primary-red)] bg-white border border-[var(--divider-color)] rounded-full shadow hover:bg-[var(--primary-red)] hover:text-white transition">
+                                <span className="sr-only">Next</span>
+                                <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <QuoteGenerator />
-            </section>
+            </motion.div>
+
+            {/* Call to Action Section */}
+            <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="w-full bg-[var(--secondary-background)] py-20 relative overflow-hidden transform -skew-y-3"
+            >
+                <div className="w-[70%] mx-auto text-center relative z-10 transform skew-y-3">
+                    <h2 className="text-3xl font-medium text-white mb-6">Ready to Start Your Project?</h2>
+                    <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                        Get a detailed quote or reach out to discuss your project requirements.
+                    </p>
+                    <div className="flex justify-center gap-4">
+                        <Link 
+                            href="/quote" 
+                            className="px-8 py-4 bg-[var(--primary-red)] text-white rounded-lg font-medium hover:bg-red-700 transition-colors duration-200"
+                        >
+                            Get Project Quote
+                        </Link>
+                        <a 
+                            href="#contact" 
+                            className="px-8 py-4 bg-white text-[var(--foreground)] rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200"
+                        >
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </motion.div>
+
+            {/* Contact Form Section */}
+            <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                id="contact"
+                className="w-full bg-[var(--off-white)] py-20"
+            >
+                <div className="w-[70%] mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl font-medium text-[var(--foreground)] mb-3">Let's Discuss Your Project</h2>
+                        <p className="text-gray-600 max-w-2xl mx-auto">
+                            Tell us about your project requirements and we'll get back to you with a detailed proposal within 24 hours.
+                        </p>
+                    </div>
+                    <div className="max-w-5xl mx-auto">
+                        <ContactForm />
+                    </div>
+                </div>
+            </motion.div>
         </main>
     );
 } 

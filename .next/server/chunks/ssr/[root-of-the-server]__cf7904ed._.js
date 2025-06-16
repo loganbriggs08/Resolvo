@@ -62,7 +62,7 @@ function getProjects() {
             content
         };
     });
-    return projects;
+    return projects.sort((a, b)=>new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 }
 function getFeaturedProjects() {
     const allProjects = getProjects();

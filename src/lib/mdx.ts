@@ -36,7 +36,7 @@ export function getProjects(): Project[] {
     };
   });
 
-  return projects;
+  return projects.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 }
 
 export function getFeaturedProjects(): Project[] {
