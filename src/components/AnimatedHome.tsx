@@ -96,6 +96,18 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
 
                 {/* What we offer section */}
                 <section className="w-[80%] ml-auto mr-auto py-20">
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                    className="text-center mb-16"
+                  >
+                    <h2 className="text-4xl font-semibold mb-4">What We Offer</h2>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                      Comprehensive digital solutions tailored to your business needs, delivered with expertise and precision.
+                    </p>
+                  </motion.div>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Web Development */}
                     <motion.div 
@@ -103,13 +115,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut" }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaGlobe />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">Web Development</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">Custom websites and web applications built with modern technologies for optimal performance and user experience.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">Web Development</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">Custom websites and web applications built with modern technologies for optimal performance and user experience.</p>
                     </motion.div>
 
                     {/* eCommerce Solutions */}
@@ -118,13 +130,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaShoppingCart />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">eCommerce Solutions</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">Complete online stores with secure payment processing, inventory management, and customer features.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">eCommerce Solutions</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">Complete online stores with secure payment processing, inventory management, and customer features.</p>
                     </motion.div>
 
                     {/* Mobile Apps */}
@@ -133,13 +145,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaMobileAlt />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">Mobile Apps</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">Mobile Apps</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
                     </motion.div>
 
                     {/* UI/UX Design */}
@@ -148,13 +160,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaPencilRuler />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">UI/UX Design</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">User-centered design that creates intuitive and engaging digital experiences.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">UI/UX Design</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">User-centered design that creates intuitive and engaging digital experiences.</p>
                     </motion.div>
 
                     {/* API Development */}
@@ -163,13 +175,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaLaptopCode />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">API Development</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">Robust and scalable APIs that power your applications and enable seamless integrations.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">API Development</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">Robust and scalable APIs that power your applications and enable seamless integrations.</p>
                     </motion.div>
 
                     {/* Maintenance & Support */}
@@ -178,13 +190,13 @@ export default function AnimatedHome({ featuredProjects }: AnimatedHomeProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
-                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200"
+                      className="bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                     >
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6">
+                      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300">
                         <FaClock />
                       </div>
-                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-3 text-center">Maintenance & Support</h3>
-                      <p className="text-gray-500 text-center leading-relaxed">Ongoing support and maintenance to keep your digital products running smoothly.</p>
+                      <h3 className="text-xl font-semibold text-[var(--foreground)] mb-4 text-center">Maintenance & Support</h3>
+                      <p className="text-gray-600 text-center leading-relaxed">Ongoing support and maintenance to keep your digital products running smoothly.</p>
                     </motion.div>
                   </div>
                 </section>

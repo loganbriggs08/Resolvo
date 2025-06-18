@@ -590,7 +590,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.v("/_next/static/media/website_example.67873abd.png");}}),
+__turbopack_context__.v("/_next/static/media/website_example.3601650b.png");}}),
 "[project]/public/website_example.png.mjs { IMAGE => \"[project]/public/website_example.png (static in ecmascript)\" } [app-client] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -604,10 +604,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$website_example$2e
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$website_example$2e$png__$28$static__in__ecmascript$29$__["default"],
     width: 1971,
-    height: 1010,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAh0lEQVR42iXGTQsBQQCA4fm9Du6uTnKQ0xbK57aRsraNnRmjts3iMIZNiiJy8CvU6+D2iCRZorXGmBVKJigl/1aKIAi+4vO+c8qm2PWInexi9YzL1lBsQs7FAfG8OWS/QtwqE3kl8mEdF3bIwiZHmyNejyuR32A+qDFpV0kXPmnUIx57OLvnBw5eZC0Qh5ohAAAAAElFTkSuQmCC",
+    height: 1166,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAApUlEQVR42h3IywoBYQBA4f/RlCyUNdmapQURyVIWcgsrmVJYuM8lJP5xbRiKshzPohyT1Tl9YjqdoGkahmF4naN7b5rm31RV/Qj37SKtDVIu2W51TscFN2eHbe+5XG2Erk+IhANEoz6UmJ90KkhSCZGIhxiOegjLWpPPKDRrOXrdItqowqxRZdwpcjqsEI/79VsvFTgfJK+nw8roMxu0aJezyLXJD3bBcxeW7fXdAAAAAElFTkSuQmCC",
     blurWidth: 8,
-    blurHeight: 4
+    blurHeight: 5
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
@@ -778,339 +778,380 @@ function AnimatedHome({ featuredProjects }) {
                 className: "w-full bg-[var(--off-white)] text-center mt-0 pt-20 pb-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                     className: "w-[80%] ml-auto mr-auto py-20",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut"
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaGlobe"], {}, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0,
+                                y: 20
+                            },
+                            whileInView: {
+                                opacity: 1,
+                                y: 0
+                            },
+                            viewport: {
+                                once: true
+                            },
+                            transition: {
+                                duration: 0.6
+                            },
+                            className: "text-center mb-16",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl font-semibold mb-4",
+                                    children: "What We Offer"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 106,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-gray-600 max-w-2xl mx-auto",
+                                    children: "Comprehensive digital solutions tailored to your business needs, delivered with expertise and precision."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 107,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                            lineNumber: 99,
+                            columnNumber: 19
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut"
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaGlobe"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 121,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 109,
-                                            columnNumber: 25
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 108,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "Web Development"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 111,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "Custom websites and web applications built with modern technologies for optimal performance and user experience."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 112,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 101,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut",
-                                    delay: 0.1
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaShoppingCart"], {}, void 0, false, {
+                                            lineNumber: 120,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "Web Development"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 123,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "Custom websites and web applications built with modern technologies for optimal performance and user experience."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
                                             lineNumber: 124,
-                                            columnNumber: 25
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 123,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "eCommerce Solutions"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 126,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "Complete online stores with secure payment processing, inventory management, and customer features."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 127,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 116,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut",
-                                    delay: 0.2
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMobileAlt"], {}, void 0, false, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 113,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        delay: 0.1
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaShoppingCart"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 136,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 135,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "eCommerce Solutions"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 138,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "Complete online stores with secure payment processing, inventory management, and customer features."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
                                             lineNumber: 139,
-                                            columnNumber: 25
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 138,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "Mobile Apps"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 141,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "Native and cross-platform mobile applications that deliver exceptional user experiences."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 142,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 131,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut",
-                                    delay: 0.3
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPencilRuler"], {}, void 0, false, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 128,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        delay: 0.2
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMobileAlt"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 151,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 150,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "Mobile Apps"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 153,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "Native and cross-platform mobile applications that deliver exceptional user experiences."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
                                             lineNumber: 154,
-                                            columnNumber: 25
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 153,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "UI/UX Design"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 156,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "User-centered design that creates intuitive and engaging digital experiences."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 157,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 146,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut",
-                                    delay: 0.4
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLaptopCode"], {}, void 0, false, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 143,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        delay: 0.3
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPencilRuler"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 166,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 165,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "UI/UX Design"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 168,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "User-centered design that creates intuitive and engaging digital experiences."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
                                             lineNumber: 169,
-                                            columnNumber: 25
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 168,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "API Development"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 171,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "Robust and scalable APIs that power your applications and enable seamless integrations."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 172,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 161,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 20
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true,
-                                    margin: "-100px"
-                                },
-                                transition: {
-                                    duration: 0.5,
-                                    ease: "easeOut",
-                                    delay: 0.5
-                                },
-                                className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-md transition-all duration-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaClock"], {}, void 0, false, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 158,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        delay: 0.4
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLaptopCode"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 181,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 180,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "API Development"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 183,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "Robust and scalable APIs that power your applications and enable seamless integrations."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
                                             lineNumber: 184,
-                                            columnNumber: 25
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 183,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-[var(--foreground)] mb-3 text-center",
-                                        children: "Maintenance & Support"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 186,
-                                        columnNumber: 23
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-500 text-center leading-relaxed",
-                                        children: "Ongoing support and maintenance to keep your digital products running smoothly."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                                        lineNumber: 187,
-                                        columnNumber: 23
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 176,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/AnimatedHome.tsx",
-                        lineNumber: 99,
-                        columnNumber: 19
-                    }, this)
-                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 173,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 20
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true,
+                                        margin: "-100px"
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        delay: 0.5
+                                    },
+                                    className: "bg-white rounded-xl p-8 border border-[var(--divider-color)] flex flex-col items-center shadow-sm hover:border-[var(--primary-red)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-16 h-16 flex items-center justify-center rounded-full bg-[var(--primary-red)] text-white text-2xl mb-6 transform hover:scale-110 transition-transform duration-300",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaClock"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/AnimatedHome.tsx",
+                                                lineNumber: 196,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 195,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-[var(--foreground)] mb-4 text-center",
+                                            children: "Maintenance & Support"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 198,
+                                            columnNumber: 23
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-center leading-relaxed",
+                                            children: "Ongoing support and maintenance to keep your digital products running smoothly."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                                            lineNumber: 199,
+                                            columnNumber: 23
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/AnimatedHome.tsx",
+                                    lineNumber: 188,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/AnimatedHome.tsx",
+                            lineNumber: 111,
+                            columnNumber: 19
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/components/AnimatedHome.tsx",
                     lineNumber: 98,
                     columnNumber: 17
@@ -1165,7 +1206,7 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Featured Work"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 227,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1173,13 +1214,13 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Explore some of our recent projects and see how we've helped businesses achieve their goals."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 228,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 208,
+                            lineNumber: 220,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1211,7 +1252,7 @@ function AnimatedHome({ featuredProjects }) {
                                             className: "object-cover h-48 rounded-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 228,
+                                            lineNumber: 240,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1222,7 +1263,7 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: project.frontmatter.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 249,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1230,7 +1271,7 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: project.frontmatter.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 250,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1242,7 +1283,7 @@ function AnimatedHome({ featuredProjects }) {
                                                             children: "View Detail"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 252,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1250,41 +1291,41 @@ function AnimatedHome({ featuredProjects }) {
                                                             children: ">"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                            lineNumber: 243,
+                                                            lineNumber: 255,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 251,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 248,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, project.slug, true, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 232,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 218,
+                            lineNumber: 230,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                    lineNumber: 207,
+                    lineNumber: 219,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/AnimatedHome.tsx",
-                lineNumber: 194,
+                lineNumber: 206,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1316,13 +1357,13 @@ function AnimatedHome({ featuredProjects }) {
                                             children: "customers say"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 276,
                                             columnNumber: 38
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 275,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1330,13 +1371,13 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "There's nothing better than a happy customer. Here are some of the lovely things ours have to say about us."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 266,
+                                    lineNumber: 278,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 262,
+                            lineNumber: 274,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1352,7 +1393,7 @@ function AnimatedHome({ featuredProjects }) {
                                             className: "absolute top-6 left-1/2 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-white"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 285,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1364,7 +1405,7 @@ function AnimatedHome({ featuredProjects }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 274,
+                                            lineNumber: 286,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1378,12 +1419,12 @@ function AnimatedHome({ featuredProjects }) {
                                                         className: "w-full h-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                        lineNumber: 279,
+                                                        lineNumber: 291,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 290,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1391,7 +1432,7 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: testimonials[currentTestimonial].name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 293,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1399,13 +1440,13 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: testimonials[currentTestimonial].company
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 294,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 289,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,13 +1456,13 @@ function AnimatedHome({ featuredProjects }) {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 297,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 284,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1436,7 +1477,7 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: "Previous"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 302,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1450,18 +1491,18 @@ function AnimatedHome({ featuredProjects }) {
                                                         d: "M15 19l-7-7 7-7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                        lineNumber: 291,
+                                                        lineNumber: 303,
                                                         columnNumber: 131
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 303,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 301,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1470,12 +1511,12 @@ function AnimatedHome({ featuredProjects }) {
                                                     className: `w-2 h-2 rounded-full bg-[var(--primary-red)] inline-block ${i === currentTestimonial ? 'opacity-80' : 'opacity-30'}`
                                                 }, i, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 307,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 293,
+                                            lineNumber: 305,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1487,7 +1528,7 @@ function AnimatedHome({ featuredProjects }) {
                                                     children: "Next"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 311,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1501,41 +1542,41 @@ function AnimatedHome({ featuredProjects }) {
                                                         d: "M9 5l7 7-7 7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                        lineNumber: 300,
+                                                        lineNumber: 312,
                                                         columnNumber: 131
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                                    lineNumber: 300,
+                                                    lineNumber: 312,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                                            lineNumber: 298,
+                                            lineNumber: 310,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 288,
+                                    lineNumber: 300,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 271,
+                            lineNumber: 283,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                    lineNumber: 260,
+                    lineNumber: 272,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/AnimatedHome.tsx",
-                lineNumber: 253,
+                lineNumber: 265,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1560,7 +1601,7 @@ function AnimatedHome({ featuredProjects }) {
                             children: "Ready to Start Your Project?"
                         }, void 0, false, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 316,
+                            lineNumber: 328,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1568,7 +1609,7 @@ function AnimatedHome({ featuredProjects }) {
                             children: "Get a detailed quote or reach out to discuss your project requirements."
                         }, void 0, false, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 317,
+                            lineNumber: 329,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1580,7 +1621,7 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Get Project Quote"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 333,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1589,24 +1630,24 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 339,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 320,
+                            lineNumber: 332,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                    lineNumber: 315,
+                    lineNumber: 327,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/AnimatedHome.tsx",
-                lineNumber: 308,
+                lineNumber: 320,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1635,7 +1676,7 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Let's Discuss Your Project"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 360,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1643,36 +1684,36 @@ function AnimatedHome({ featuredProjects }) {
                                     children: "Tell us about your project requirements and we'll get back to you with a detailed proposal within 24 hours."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                                    lineNumber: 349,
+                                    lineNumber: 361,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 347,
+                            lineNumber: 359,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "max-w-5xl mx-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ContactForm$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/components/AnimatedHome.tsx",
-                                lineNumber: 354,
+                                lineNumber: 366,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/AnimatedHome.tsx",
-                            lineNumber: 353,
+                            lineNumber: 365,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/AnimatedHome.tsx",
-                    lineNumber: 346,
+                    lineNumber: 358,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/AnimatedHome.tsx",
-                lineNumber: 338,
+                lineNumber: 350,
                 columnNumber: 13
             }, this)
         ]
